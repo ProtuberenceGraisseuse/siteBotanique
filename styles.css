@@ -1,0 +1,181 @@
+
+body
+{
+  background-color: black;
+}
+
+#id_global
+{
+  color: white;
+}
+#conteneur
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 2px solid #444;
+  background-color: #333333;
+  height: 150px;
+  align-items: center;
+}
+
+#containerPlants
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid #444;
+  background-color: #333333;
+  height: 150px;
+  align-items: center;
+  min-height: 500px;
+}
+#leftPage
+{
+  flex: 1;
+  max-width: 500px;
+  width: 40%;
+  background-color: rgb(63, 29, 5);
+  height: 600px;
+}
+#rightPage
+{
+  flex: 1.5;
+  width: 60%;
+  background-color: rgb(8, 53, 3);
+  height: 600px;
+}
+
+
+.element
+{
+  width: 30%;
+  background-color: #444444;
+}
+
+#imageLogo
+{
+  width: 150px;
+  height: 80px;
+}
+
+.sousElement
+{
+  color: white;
+  height: 50px;
+  margin: 5px;
+  text-align: center;
+  padding-top: 10px;
+}
+.sousElement:hover
+{
+  background-color: #111111;
+}
+.sousElement:nth-child(1)
+{
+  border: 2px solid rgb(27, 90, 27)
+}
+.sousElement:nth-child(2)
+{
+  border: 2px solid rgb(255, 0, 34)
+}
+.sousElement:nth-child(3)
+{
+  border: 2px solid rgb(97, 122, 27)
+}
+.sousElement:nth-child(4)
+{
+  border: 2px solid rgb(43, 173, 97)
+}
+
+
+p, ul, dl
+{
+  color: #b2b2dc;
+  border: 2px solid rgb(27, 90, 27);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  width: auto;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.paragraphe:hover
+{
+  padding: 25px;
+}
+
+@media screen and (max-width: 800px)
+{
+  p
+  {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 0px;
+  }
+}
+
+a
+{
+  color: rgb(256,256,230);
+}
+
+h1 
+{
+    color: rgb(156, 112, 45);
+    font-size: 3em;
+}
+h2
+{
+    color: rgb(141, 96, 12);
+    font-size: 0.7em;
+}
+h3
+{
+    color: rgb(141, 96, 12);
+    font-size: 1em;
+}
+ul{
+  color: white;
+}
+li
+{
+  color: white;
+}
+.flottant
+{
+  text-align: center;  
+}
+
+.Clade
+{
+  border: 2px solid rgb(27, 90, 27);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+.Clade:hover
+{
+  padding: 25px;
+}
+
+.Especie
+{
+  border: 5px solid rgb(173, 56, 95);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.Ordre
+{
+  border: 5px solid rgb(245, 11, 3);
+  border-radius: 5px;
+  
+}
+#panel {
+  display: none;
+}
+
